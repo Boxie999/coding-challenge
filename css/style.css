@@ -1,0 +1,56 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,117,1) 35%, rgba(0,212,255,1) 100%); */
+    background: #3A1C71;  /* fallback for old browsers */
+
+    background: linear-gradient(to right,#3A1C71, #D76D77,  #FFAF7B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.543);
+    color: white;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    margin: 0;
+  }
+  
+  /* CSS styles for the items-per-page and page-number containers within the navbar */
+  .navbar-items {
+    display: flex;
+    align-items: center;
+  }
+  
+
+  #data-container {
+    display: flex;
+    margin: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.item-container {
+    background-color: rgba(255, 255, 255, 0.037);
+    padding: 20px;
+    flex-basis: calc(50% - 10px); 
+    margin: 10px; 
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 1px 3px 10px #000000;
+    height: calc(100% - 4px);
+    
+}
